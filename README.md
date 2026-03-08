@@ -70,7 +70,7 @@ padding:10px;
 <span>Machine Learning</span>
 </section>
 
-<section>
+\<section>
 <h2>Projects</h2>
 <p>Mental Health Detection from Social Media using Machine Learning</p>
 </section>
