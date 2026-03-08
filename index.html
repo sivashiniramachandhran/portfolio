@@ -155,7 +155,26 @@ analytical skills while contributing positively in team environments.
 <h2>Resume</h2>
 
 <button onclick="viewResume()">View Resume</button>
+<a href="resume.pdf" target="_blank" class="resume-btn">Download Resume</a>
 
+<style>
+.resume-btn{
+  display:inline-block;
+  padding:12px 25px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  font-size:16px;
+  border-radius:8px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.resume-btn:hover{
+  background:#1e40af;
+  transform:scale(1.05);
+}
+</style>
 <a href="resume.pdf" download>
 <button>Download Resume</button>
 </a>
@@ -198,3 +217,4 @@ window.open("resume.pdf");
 
 </body>
 </html>
+
